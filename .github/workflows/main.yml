@@ -16,7 +16,7 @@ jobs:
           directory='wau-mods'
 
           # Create a list of files in the directory
-          files=$(find "$directory" -type f)
+          files=$(find "wau-mods" -type f)
 
           # Generate the index.html content
           html_content="<html><<body><ul>"
@@ -26,10 +26,10 @@ jobs:
           html_content+="</ul></body></html>"
 
           # Write the index.html content to a file
-          echo "$html_content" > "$directory/index.html"
+          echo "$html_content" > "wau-mods/index.html"
 
       - name: Commit index.html
         run: |
-          git add "$directory/index.html"
+          git add "wau-mods/index.html"
           git commit -m "Updated index.html"
           git push origin main
