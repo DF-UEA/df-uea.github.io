@@ -18,17 +18,13 @@ jobs:
           directory='wau-mods'
 
           # Create a list of files in the directory
-          files=$(find "wau-mods" -type f -name '*.ps1')
-
-          # Generate the index.html content
-          html_content="<ul>"
-          for file in $files; do
-            html_content+="<li><a href='$(basename "$file")'>$(basename "$file")</a></li>"
-          done
-          html_content+="</ul>"
-
-          # Write the index.html content to a file
-          echo "$html_content" > "wau-mods/index.html"
+          run: |
+          find wau-mods -type f -name '*.ps1' -exec basename {} \; | sed 's/\.ps1//' > index.html
+      - name: Publish Index.html as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: index.html
+          path: index.html
 
       - name: Commit index.html
         run: |
