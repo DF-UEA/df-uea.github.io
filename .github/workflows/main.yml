@@ -13,6 +13,8 @@ jobs:
 
       - name: Generate index.html
         run: |
+          git config --global user.email "d.fawdon@uea.ac.uk"
+          git config --global user.name "DF-UEA"
           directory='wau-mods'
 
           # Create a list of files in the directory
