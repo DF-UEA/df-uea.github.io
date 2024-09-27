@@ -20,10 +20,10 @@ jobs:
             index_content+="<li><a href=\"$filename\">$filename</a></li>\n"
           done
 
-          echo "<ul>$index_content</ul>" > docs/index.html
+          echo "<ul>$index_content</ul>" > wau-mods/index.html
 
       - name: Commit Index File
         run: |
-          git add docs/index.html
+          git add wau-mods/index.html
           git commit -m "Updated index.html"
           git push origin main
