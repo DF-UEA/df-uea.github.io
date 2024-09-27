@@ -1,29 +1,36 @@
-name: Generate Index File
+name: Generate Index.html
 
 on:
   push:
-    branches: [main]
-    paths:
-      - 'wau-mods'
+    branches:
+      - main
 
 jobs:
-  generate-index:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Index File
+      - name: Generate index.html
         run: |
-          index_content=""
-          for file in $(find wau-mods -type f); do
-            filename=$(basename "$file")
-            index_content+="<li><a href=\"$filename\">$filename</a></li>\n"
+          # Replace 'your-directory' with the actual directory path
+          directory='wau-mods'
+
+          # Create a list of files in the directory
+          files=$(find "$directory" -type f)
+
+          # Generate the index.html content
+          html_content="<html><head><title>Index of $directory</title></head><body><h1>Index of $directory</h1><ul>"
+          for file in $files; do
+            html_content+="<li><a href='$file'>$file</a></li>"
           done
+          html_content+="</ul></body></html>"
 
-          echo "<ul>$index_content</ul>" > wau-mods/index.html
+          # Write the index.html content to a file
+          echo "$html_content" > "$directory/index.html"
 
-      - name: Commit Index File
+      - name: Commit index.html
         run: |
-          git add wau-mods/index.html
+          git add "$directory/index.html"
           git commit -m "Updated index.html"
           git push origin main
