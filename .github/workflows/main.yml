@@ -3,38 +3,27 @@ name: Generate Index File
 on:
   push:
     branches: [main]
+    paths:
+      - 'wau-mods/**/*'
 
 jobs:
   generate-index:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
       - name: Generate Index File
         run: |
-          index_html="index.html"
-          if [[ ! -f "$index_html" ]]; then
-            echo "<!DOCTYPE html>" > "$index_html"
-            echo "<html>" >> "$index_html"
-            echo "<head>" >> "$index_html"
-            echo "<title>Index of Files</title>" >> "$index_html"
-            echo "</head>" >> "$index_html"
-            echo "<body>" >> "$index_html"
-            echo "<h1>Index of Files</h1>" >> "$index_html"
-            echo "<ul>" >> "$index_html"
-            for file in *; do
-              if [[ -f "$file" ]]; then
-                echo "<li><a href=\"$file\">$file</a></li>" >> "$index_html"
-              fi
-            done
-            echo "</ul>" >> "$index_html"
-            echo "</body>" >> "$index_html"
-            echo "</html>" >> "$index_html"
-          fi
+          index_content=""
+          for file in $(find docs/content -type f); do
+            filename=$(basename "$file")
+            index_content+="<li><a href=\"$filename\">$filename</a></li>\n"
+          done
+
+          echo "<ul>$index_content</ul>" > docs/index.html
 
       - name: Commit Index File
         run: |
-          git add "$index_html"
-          git commit -m "Updated index.html with new files"
+          git add docs/index.html
+          git commit -m "Updated index.html"
           git push origin main
