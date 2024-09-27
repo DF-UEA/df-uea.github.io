@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'wau-mods/**/*'
+      - 'wau-mods'
 
 jobs:
   generate-index:
