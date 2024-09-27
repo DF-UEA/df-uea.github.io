@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Generate index.html
         run: |
@@ -20,7 +20,7 @@ jobs:
           files=$(find "$directory" -type f)
 
           # Generate the index.html content
-          html_content="<html><head><title>Index of $directory</title></head><body><h1>Index of $directory</h1><ul>"
+          html_content="<html><<body><ul>"
           for file in $files; do
             html_content+="<li><a href='$file'>$file</a></li>"
           done
