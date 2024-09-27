@@ -21,11 +21,11 @@ jobs:
           files=$(find "wau-mods" -type f -name '*.ps1')
 
           # Generate the index.html content
-          html_content="<ul><br>"
+          html_content="<pre><ul><br>"
           for file in $files; do
             html_content+="<li><a href='$(basename "$file")'>$(basename "$file")</a></li><br>"
           done
-          html_content+="</ul>"
+          html_content+="</ul></pre>"
 
           # Write the index.html content to a file
           echo "$html_content" > "wau-mods/index.html"
