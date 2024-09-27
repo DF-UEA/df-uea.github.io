@@ -14,7 +14,7 @@ jobs:
       - name: Generate index.html
         run: |
           # Replace 'your-directory' with the actual directory path
-          directory='/wau-mods'
+          directory='wau-mods'
 
           # Create a list of files in the directory
           files=$(find "$directory" -type f)
