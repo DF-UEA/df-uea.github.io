@@ -23,7 +23,7 @@ jobs:
           # Generate the index.html content
           html_content="<ul>"
           for file in $files; do
-            html_content+="<li><a href='$file'>$(basename "$file")</a></li>"
+            html_content+="<li><a href=$(basename "$file")>$(basename "$file")</a></li>"
           done
           html_content+="</ul>"
 
