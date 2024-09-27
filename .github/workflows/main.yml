@@ -15,7 +15,7 @@ jobs:
       - name: Generate Index File
         run: |
           index_content=""
-          for file in $(find docs/content -type f); do
+          for file in $(find wau-mods -type f); do
             filename=$(basename "$file")
             index_content+="<li><a href=\"$filename\">$filename</a></li>\n"
           done
