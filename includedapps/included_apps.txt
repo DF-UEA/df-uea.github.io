@@ -1,0 +1,5 @@
+Notepad++.Notepad++
+7zip.7zip
+Zoom.Zoom
+Adobe.Acrobat.Reader.64-bit
+Microsoft.PowerBI
