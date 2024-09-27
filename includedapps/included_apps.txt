@@ -3,3 +3,4 @@ Notepad++.Notepad++
 Zoom.Zoom
 Adobe.Acrobat.Reader.64-bit
 Microsoft.PowerBI
+WinSCP.WinSCP
