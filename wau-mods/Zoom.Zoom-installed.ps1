@@ -1,1 +1,0 @@
-Remove-Item "C:\Users\Public\Desktop\Zoom Workplace.lnk" -Force -ErrorAction SilentlyContinue
