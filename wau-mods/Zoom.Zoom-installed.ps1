@@ -1,3 +1,4 @@
+Remove-Item "C:\Users\Public\Desktop\Zoom Workplace.lnk" -Force -ErrorAction SilentlyContinue
 <# ARRAYS/VARIABLES #>
 #App to Run (as SYSTEM)
 #$RunWait = $False if it shouldn't be waited for completion. Example:
