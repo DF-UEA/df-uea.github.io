@@ -39,10 +39,10 @@ $Lnk = @("Power BI Desktop")
 #$AddValue = "WAU_BypassListForUsers"
 #$AddTypeData = "1"
 #$AddType = "DWord"
-$AddKey = "HKLM:\SOFTWARE\UEA\WingetApps"
-$AddValue = "Microsoft.PowerBI"
-$AddTypeData = "Y"
-$AddType = "String"
+$AddKey = ""
+$AddValue = ""
+$AddTypeData = ""
+$AddType = ""
 
 #Registry _value_ to delete in existing registry Key.
 #Value can be omitted for deleting entire Key!. Example:
