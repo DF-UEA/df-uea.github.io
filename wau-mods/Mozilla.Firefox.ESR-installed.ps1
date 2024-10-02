@@ -83,7 +83,7 @@ $RunUser = ""
 $User = $True
 
 <# FUNCTIONS #>
-. $PSScriptRoot\_Mods-Functions.ps1
+. $PSScriptRoot\Mods-Functions.ps1
 
 <# MAIN #>
 if ($RunSystem) {
