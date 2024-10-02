@@ -18,7 +18,7 @@ jobs:
           directory='wau-mods'
 
           # Create a list of files in the directory
-          files=$(find "wau-mods" -type f \(-name '*.ps1' -o -name '*.txt' \))
+          files=$(find "wau-mods" -type f -name '*.ps1' -o -name '*.txt')
 
           # Generate the index.html content
           echo "<ul>" > "wau-mods/index.html"
