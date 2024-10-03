@@ -7,3 +7,4 @@ WinSCP.WinSCP
 DominikReichl.KeePass
 Yubico.Authenticator
 Mozilla.Firefox.ESR
+Google.Chrome
