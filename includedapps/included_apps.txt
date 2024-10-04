@@ -8,3 +8,4 @@ DominikReichl.KeePass
 Yubico.Authenticator
 Mozilla.Firefox.ESR
 Google.Chrome
+Microsoft.VisualStudioCode
