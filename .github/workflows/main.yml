@@ -2,8 +2,8 @@ name: Generate Index.html
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'wau-mods'
 
 jobs:
   build:
