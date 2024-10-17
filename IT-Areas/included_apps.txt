@@ -1,1 +1,12 @@
-
+Notepad++.Notepad++
+7zip.7zip
+Zoom.Zoom
+Adobe.Acrobat.Reader.64-bit
+Microsoft.PowerBI
+WinSCP.WinSCP
+DominikReichl.KeePass
+Yubico.Authenticator
+Mozilla.Firefox.ESR.en-GB
+Google.Chrome
+Microsoft.VisualStudioCode
+VideoLAN.VLC
