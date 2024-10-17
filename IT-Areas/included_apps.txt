@@ -6,6 +6,7 @@ Microsoft.PowerBI
 WinSCP.WinSCP
 DominikReichl.KeePass
 Yubico.Authenticator
+Mozilla.Firefox.ESR
 Mozilla.Firefox.ESR.en-GB
 Google.Chrome
 Microsoft.VisualStudioCode
