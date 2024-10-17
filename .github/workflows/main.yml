@@ -3,7 +3,7 @@ name: Generate Index.html
 on:
   push:
     paths:
-      - 'wau-mods'
+      - 'wau-mods/**'
 
 jobs:
   build:
