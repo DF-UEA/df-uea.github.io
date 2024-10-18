@@ -1,4 +1,4 @@
-#Common shared functions to handle the mods
+#Common shared functions to handle the mods.
 
 function Invoke-ModsApp ($Run, $RunSwitch, $RunWait, $User) {
     if (Test-Path "$Run") {
