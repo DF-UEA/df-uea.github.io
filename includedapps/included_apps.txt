@@ -1,3 +1,4 @@
 Zoom.Zoom
 Google.Chrome
 Microsoft.Edge
+VideoLAN.VLC
