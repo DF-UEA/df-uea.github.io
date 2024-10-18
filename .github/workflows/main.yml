@@ -1,0 +1,38 @@
+name: Generate Index.html
+
+on:
+  push:
+    paths:
+      - 'wau-mods/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate index.html
+        run: |
+          directory='wau-mods'
+
+          # Create a list of files in the directory
+          files=$(find "wau-mods" -type f -name '*.ps1' -o -name '*.txt' | sort)
+
+          # Generate the index.html content
+          echo "<ul>" > "wau-mods/index.html"
+
+          for file in $files; do
+            echo "<li><a href='$(basename "$file")'>$(basename "$file")</a></li>" >> "wau-mods/index.html"
+          done
+          
+          echo "</ul>" >> "wau-mods/index.html"
+
+
+      - name: Commit index.html
+        run: |
+          # git config --global user.name "GitHub Actions"  # Use generic name
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+          git add "wau-mods/index.html"
+          git commit -m "Updated index.html"
+          git push origin main
