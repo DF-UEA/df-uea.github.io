@@ -11,3 +11,4 @@ Mozilla.Firefox.ESR.en-GB
 Google.Chrome
 Microsoft.VisualStudioCode
 VideoLAN.VLC
+Microsoft.Edge
