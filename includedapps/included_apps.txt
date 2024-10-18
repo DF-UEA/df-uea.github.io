@@ -12,3 +12,4 @@ Google.Chrome
 Microsoft.VisualStudioCode
 VideoLAN.VLC
 Microsoft.Edge
+Microsoft.EdgeWebView2Runtime
