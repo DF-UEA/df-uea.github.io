@@ -1,2 +1,2 @@
-Google.Chrome
-Microsoft.Edge
+Dropbox.Dropbox
+Zoom.Zoom
