@@ -37,7 +37,7 @@ jobs:
           git commit -m "Updated index.html"
           commit_exit_code=$?  # Capture the exit code
           if [[ $commit_exit_code -eq 0 ]]; then  # Check if commit was successful
-            git push origin main
+          git push origin main
           else  # If commit failed (no changes), print a message
-            echo "No changes detected. Skipping push."
+          echo "No changes detected. Skipping push."
           fi
