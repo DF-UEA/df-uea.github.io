@@ -34,10 +34,5 @@ jobs:
           git config user.name "$(git log -n 1 --pretty=format:%an)"
           git config user.email "$(git log -n 1 --pretty=format:%ae)"
           git add "wau-mods/index.html"
-          git commit -m "Updated index.html"
-          commit_exit_code=$?  # Capture the exit code
-          if [[ $commit_exit_code -eq 0 ]]; then  # Check if commit was successful
+          git commit -m "Updated index.html" || echo "No changes detected. Skipping push."
           git push origin main
-          else  # If commit failed (no changes), print a message
-          echo "No changes detected. Skipping push."
-          fi
