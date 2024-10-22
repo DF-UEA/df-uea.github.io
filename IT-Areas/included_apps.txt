@@ -1,4 +1,2 @@
 Zoom.Zoom
-Google.Chrome
-Microsoft.Edge
-Microsoft.EdgeWebView2Runtime
+Dropbox.Dropbox
