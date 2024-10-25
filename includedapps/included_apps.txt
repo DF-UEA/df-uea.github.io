@@ -1,2 +1,3 @@
 Dropbox.Dropbox
 Zoom.Zoom
+Evernote.Evernote
