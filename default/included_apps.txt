@@ -1,3 +1,5 @@
 Dropbox.Dropbox
 Zoom.Zoom
 Evernote.Evernote
+Microsoft.PowerToys
+Postman.Postman
