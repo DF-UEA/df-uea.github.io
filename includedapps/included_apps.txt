@@ -3,3 +3,4 @@ Zoom.Zoom
 Evernote.Evernote
 Microsoft.PowerToys
 Postman.Postman
+USEPA.EPANET
