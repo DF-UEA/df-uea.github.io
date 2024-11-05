@@ -4,3 +4,4 @@ Evernote.Evernote
 Microsoft.PowerToys
 Postman.Postman
 USEPA.EPANET
+Microsoft.PowerBI
