@@ -1,1 +1,1 @@
-"/NOLAUNCH"
+/NOLAUNCH
