@@ -5,3 +5,4 @@ Microsoft.PowerToys
 Postman.Postman
 USEPA.EPANET
 Microsoft.PowerBI
+Microsoft.VisualStudioCode
