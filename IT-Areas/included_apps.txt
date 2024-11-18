@@ -2,3 +2,4 @@ Zoom.Zoom
 Dropbox.Dropbox
 USEPA.EPANET
 Microsoft.PowerBI
+Microsoft.VisualStudioCode
