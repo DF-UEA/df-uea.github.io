@@ -20,3 +20,4 @@ Microsoft.VCRedist.2005.x86
 Microsoft.VCRedist.2005.x64
 7zip.7zip
 Notepad++.Notepad++
+Bambulab.Bambustudio
