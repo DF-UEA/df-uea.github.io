@@ -1,2 +1,2 @@
 # Remove Desktop shortcut
-Remove-Item "C:\Users\Public\Desktop\Adobe Acrobat.lnk" -Force -ErrorAction SilentlyContinue
+Remove-Item "C:\Users\Public\Desktop\Acrobat Reader.lnk" -Force -ErrorAction SilentlyContinue
