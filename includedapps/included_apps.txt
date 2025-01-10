@@ -21,3 +21,4 @@ Microsoft.VCRedist.2005.x64
 7zip.7zip
 Notepad++.Notepad++
 Bambulab.Bambustudio
+Adobe.Acrobat.Reader.32-bit
