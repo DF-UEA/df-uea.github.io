@@ -22,3 +22,4 @@ Microsoft.VCRedist.2005.x64
 Notepad++.Notepad++
 Bambulab.Bambustudio
 Adobe.Acrobat.Reader.32-bit
+Workrave.Workrave
