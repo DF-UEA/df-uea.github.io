@@ -25,3 +25,4 @@ Adobe.Acrobat.Reader.32-bit
 Workrave.Workrave
 Microsoft.PowerShell
 DominikReichl.KeePass
+DigitalScholar.Zotero
