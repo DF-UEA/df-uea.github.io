@@ -19,3 +19,5 @@ Microsoft.VCRedist.2005.x64
 Notepad++.Notepad++
 Adobe.Acrobat.Reader.32-bit
 DigitalScholar.Zotero
+PuTTY.PuTTY
+WinSCP.WinSCP

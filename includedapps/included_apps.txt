@@ -26,3 +26,5 @@ Workrave.Workrave
 Microsoft.PowerShell
 DominikReichl.KeePass
 DigitalScholar.Zotero
+PuTTY.PuTTY
+WinSCP.WinSCP
