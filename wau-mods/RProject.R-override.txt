@@ -1,0 +1,1 @@
+"/DIR=\"C:\Program Files\R\Rwinget\" NOICONS=0 /VERYSILENT"
