@@ -1,1 +1,1 @@
-/DIR='c:\program files\R\Rwinget' NOICONS=0 /VERYSILENT
+/DIR="%programfiles%\R\Rwinget" NOICONS=0 /VERYSILENT
