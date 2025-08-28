@@ -28,3 +28,6 @@ DominikReichl.KeePass
 DigitalScholar.Zotero
 PuTTY.PuTTY
 WinSCP.WinSCP
+Microsoft.SQLServerManagementStudio
+Google.Chrome
+Mozilla.Firefox.ESR*
