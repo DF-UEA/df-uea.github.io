@@ -1,0 +1,1 @@
+﻿Remove-Item $env:PUBLIC\desktop\Inkscape.lnk
