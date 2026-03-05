@@ -31,3 +31,4 @@ WinSCP.WinSCP
 Microsoft.SQLServerManagementStudio
 Google.Chrome
 Mozilla.Firefox.ESR*
+Inkscape.Inkscape
