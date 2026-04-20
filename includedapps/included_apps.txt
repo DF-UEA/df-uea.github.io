@@ -32,3 +32,6 @@ Microsoft.SQLServerManagementStudio
 Google.Chrome
 Mozilla.Firefox.ESR*
 Inkscape.Inkscape
+Posit.RStudio
+RProject.R
+RProject.Rtools
