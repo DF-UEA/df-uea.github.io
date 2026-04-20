@@ -23,3 +23,6 @@ PuTTY.PuTTY
 WinSCP.WinSCP
 Google.Chrome
 Mozilla.Firefox.ESR*
+Posit.RStudio
+RProject.R
+RProject.Rtools
