@@ -1,0 +1,1 @@
+/quiet /analytics No /update No /aipromptbuilder No /sso Yes /log c:\temp\optionsplus.log
