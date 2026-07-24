@@ -35,3 +35,7 @@ Inkscape.Inkscape
 Posit.RStudio
 RProject.R
 RProject.Rtools
+Cisco.Webex.Bundle
+VideoLAN.VLC
+iGEM.MEGA.12
+OSGeo.QGIS
