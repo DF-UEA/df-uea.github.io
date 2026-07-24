@@ -26,3 +26,4 @@ Mozilla.Firefox.ESR*
 Posit.RStudio
 RProject.R
 RProject.Rtools
+OSGeo.QGIS
