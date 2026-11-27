@@ -42,3 +42,4 @@ OSGeo.QGIS
 Atlassian.Sourcetree
 Insecure.Nmap
 BORIS.BORIS
+GraphPad.Prism
